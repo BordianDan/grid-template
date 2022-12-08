@@ -1,0 +1,38 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-main;
+  font-size: $font-size;
+  overflow-y: scroll;
+}
+
+body {
+  color: $color-gray;
+  background-color: $color-white;
+}
+
+h1 {
+  letter-spacing: 0.08em;
+  line-height: 1.2em;
+  font-weight: 300;
+  font-family: $font-header;
+}
+
+h2 {
+  font-family: $font-header;
+}
+
+h3 {
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+}
